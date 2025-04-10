@@ -1,7 +1,7 @@
 window.TrelloPowerUp.initialize({
   'card-buttons': function(t, options) {
     return [{
-      text: '🔄 Gerar E-mail',
+      text: '2.🔄 Gerar E-mail',
       callback: function(t) {
         return t.card('id')
           .then(function(card) {
